@@ -1,27 +1,16 @@
 name: Test CI
 on:
-  pull_request:
   push:
     branches:
       - master
 jobs:
-  build:
-    name: Build action
-    runs-on: ubuntu-18.04
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Install dependencies
-        run: npm ci
-      - name: Build TypeScript
-        run: npm run build
-      - name: Build package
-        run: npm run package
   test:
     name: Test action
     runs-on: ubuntu-18.04
+    if: "contains(github.event.head_commit.message, 'Deploy new version')"
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
       - uses: ./
         with:
           milliseconds: 1000
