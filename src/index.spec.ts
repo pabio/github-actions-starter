@@ -1,1 +1,1 @@
-describe("sample", () => expect(1).toBe(1))
+test("sample", () => expect(1).toBe(1))
