@@ -2,15 +2,19 @@
 
 GitHub Actions starter for TypeScript with automated releases
 
+[![Build CI](https://github.com/koj-co/action.ts/workflows/Build%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Build+CI%22)
 [![Test CI](https://github.com/koj-co/action.ts/workflows/Test%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Test+CI%22)
 [![Release CI](https://github.com/koj-co/action.ts/workflows/Release%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Release+CI%22)
 [![Node CI](https://github.com/koj-co/action.ts/workflows/Node%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Node+CI%22)
 
-## ⭐ Getting started
+## ⭐ Features
 
-1. Create a new repository [using this template](https://github.com/koj-co/action.ts/generate)
-2. Add your TypeScript code in `./src`
-3. Test using GitHub Actions
+- Write source in TypeScript
+- Auto-publish compiled code to `dist/`
+- Semantic Release to GitHub and npm
+- Includes Actions Core and Octokit
+
+[**Create a repository using this template →**](https://github.com/koj-co/action.ts/generate)
 
 ## 📄 License
 
