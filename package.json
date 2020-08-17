@@ -1,0 +1,26 @@
+{
+  "name": "action.ts",
+  "version": "0.0.0",
+  "description": "Starter for GitHub Actions with TypeScript and automated releases",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koj-co/action.ts.git"
+  },
+  "keywords": [
+    "github",
+    "github actions",
+    "nodejs",
+    "typescript",
+    "starter"
+  ],
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koj-co/action.ts/issues"
+  },
+  "homepage": "https://github.com/koj-co/action.ts#readme"
+}
