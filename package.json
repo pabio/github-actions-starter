@@ -1,6 +1,6 @@
 {
   "name": "action.ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Starter for GitHub Actions with TypeScript and automated releases",
   "main": "dist/index.js",
   "scripts": {
