@@ -4,7 +4,9 @@
   "description": "Starter for GitHub Actions with TypeScript and automated releases",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "package": "ncc build --source-map",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
