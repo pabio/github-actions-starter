@@ -34,5 +34,20 @@
   },
   "dependencies": {
     "@actions/core": "^1.2.4"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src/"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "automock": false
   }
 }
