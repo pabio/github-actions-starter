@@ -6,7 +6,7 @@ export const run = async () => {
     debug(`Waiting ${ms} milliseconds ...`);
 
     debug(new Date().toTimeString());
-    await wait(parseInt(ms, 10));
+    await wait(parseInt(ms, 10) ?? 1);
     debug(new Date().toTimeString());
 
     setOutput("time", new Date().toTimeString());
