@@ -27,10 +27,6 @@ jobs:
           MERGE_FORKS: false
           UPDATE_LABELS: "merge"
           UPDATE_METHOD: "merge"
-      - name: Wait for 10s
-        uses: jakejarvis/wait-action@master
-        with:
-          time: "10s"
       - name: Delete merged branch
         uses: koj-co/delete-merged-action@master
         with:
