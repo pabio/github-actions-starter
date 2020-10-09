@@ -1,6 +1,6 @@
 # 🎬 GitHub Actions Starter
 
-GitHub Actions starter for TypeScript with automated releases
+GitHub Actions starter for TypeScript with automated releases to `dist`, Semantic Release, and auto-PR merges.
 
 [![Build CI](https://github.com/koj-co/action.ts/workflows/Build%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Build+CI%22)
 [![Test CI](https://github.com/koj-co/action.ts/workflows/Test%20CI/badge.svg)](https://github.com/koj-co/action.ts/actions?query=workflow%3A%22Test+CI%22)
