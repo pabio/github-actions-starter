@@ -1,16 +1,16 @@
 ---
-name: semantic-release
-version: 17.2.0
+name: reduce-flatten
+version: 2.0.0
 type: npm
-summary: Automated semver compliant package publishing
-homepage: https://github.com/semantic-release/semantic-release#readme
+summary: Flatten an array into the supplied array.
+homepage: https://github.com/75lb/reduce-flatten#readme
 license: mit
 licenses:
 - sources: LICENSE
   text: |
-    MIT License
+    The MIT License (MIT)
 
-    Copyright (c) 2017 Contributors
+    Copyright (c) 2016-18 Lloyd Brookes <75pound@gmail.com>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

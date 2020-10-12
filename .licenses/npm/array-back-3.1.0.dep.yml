@@ -1,16 +1,16 @@
 ---
-name: semantic-release
-version: 17.2.0
+name: array-back
+version: 3.1.0
 type: npm
-summary: Automated semver compliant package publishing
-homepage: https://github.com/semantic-release/semantic-release#readme
+summary: Guarantees an array back
+homepage: https://github.com/75lb/array-back#readme
 license: mit
 licenses:
 - sources: LICENSE
   text: |
-    MIT License
+    The MIT License (MIT)
 
-    Copyright (c) 2017 Contributors
+    Copyright (c) 2015-19 Lloyd Brookes <75pound@gmail.com>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
