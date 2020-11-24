@@ -1,3 +1,13 @@
+## [v1.0.4](https://github.com/koj-co/action.ts/compare/v1.0.3...v1.0.4) (2020-11-24)
+
+### ⬆️ Dependency updates
+
+- [`7664fa9`](https://github.com/koj-co/action.ts/commit/7664fa9)  Bump semantic-release from 17.2.2 to 17.2.3
+- [`d1d6e21`](https://github.com/koj-co/action.ts/commit/d1d6e21)  Bump @koj/config from 1.2.8 to 1.2.9
+- [`be6576f`](https://github.com/koj-co/action.ts/commit/be6576f)  Bump vsoch/pull-request-action from 1.0.11 to 1.0.12
+- [`c8c921d`](https://github.com/koj-co/action.ts/commit/c8c921d)  Bump semantic-release from 17.2.3 to 17.2.4
+- [`f5a8132`](https://github.com/koj-co/action.ts/commit/f5a8132)  Bump typescript from 4.0.5 to 4.1.2
+
 ## [v1.0.3](https://github.com/koj-co/action.ts/compare/v1.0.2...v1.0.3) (2020-11-17)
 
 ### ⬆️ Dependency updates
