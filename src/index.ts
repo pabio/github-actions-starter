@@ -19,7 +19,7 @@ export const run = async () => {
 };
 
 export const wait = (milliseconds: number) => {
-  return new Promise((resolve) => setTimeout(() => resolve(), milliseconds));
+  return new Promise<void>((resolve) => setTimeout(() => resolve(), milliseconds));
 };
 
 run()
