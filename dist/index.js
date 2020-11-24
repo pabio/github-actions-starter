@@ -1429,7 +1429,7 @@ exports.wait = exports.run = void 0;
 const core_1 = __webpack_require__(470);
 const github_1 = __webpack_require__(469);
 const token = core_1.getInput("token") || process.env.GH_PAT || process.env.GITHUB_TOKEN;
-exports.run = async () => {
+const run = async () => {
     if (!token)
         throw new Error("GitHub token not found");
     const octokit = github_1.getOctokit(token);
@@ -1440,9 +1440,11 @@ exports.run = async () => {
     core_1.debug(new Date().toTimeString());
     core_1.setOutput("time", new Date().toTimeString());
 };
-exports.wait = (milliseconds) => {
+exports.run = run;
+const wait = (milliseconds) => {
     return new Promise((resolve) => setTimeout(() => resolve(), milliseconds));
 };
+exports.wait = wait;
 exports.run()
     .then(() => { })
     .catch((error) => {
