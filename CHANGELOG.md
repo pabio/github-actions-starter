@@ -1,3 +1,16 @@
+## v1.0.5 (2020-12-09)
+
+[📝 Release notes](https://github.com/koj-co/action.ts/releases/tag/v1.0.5) · [💻 Compare](https://github.com/koj-co/action.ts/compare/v1.0.4...v1.0.5) · [🔖 Tag](https://github.com/koj-co/action.ts/tree/v1.0.5) · 🗄️ Archive ([zip](https://github.com/koj-co/action.ts/archive/v1.0.5.zip) · [tar.gz](https://github.com/koj-co/action.ts/archive/v1.0.5.tar.gz))
+
+### ⬆️ Dependency updates
+
+- [`a4e8175`](https://github.com/koj-co/action.ts/commit/a4e8175)  Bump semantic-release from 17.2.4 to 17.3.0
+- [`4535e84`](https://github.com/koj-co/action.ts/commit/4535e84)  Bump @types/jest from 26.0.15 to 26.0.16
+- [`79627f8`](https://github.com/koj-co/action.ts/commit/79627f8)  Bump @koj/config from 1.2.9 to 1.2.11
+- [`eb5c12a`](https://github.com/koj-co/action.ts/commit/eb5c12a)  Bump @types/jest from 26.0.16 to 26.0.17
+- [`7970222`](https://github.com/koj-co/action.ts/commit/7970222)  Bump @types/jest from 26.0.17 to 26.0.18
+- [`b1a7ccc`](https://github.com/koj-co/action.ts/commit/b1a7ccc)  Bump node-fetch from 2.6.0 to 2.6.1
+
 ## [v1.0.4](https://github.com/koj-co/action.ts/compare/v1.0.3...v1.0.4) (2020-11-24)
 
 ### ⬆️ Dependency updates
